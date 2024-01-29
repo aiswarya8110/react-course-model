@@ -1,0 +1,340 @@
+{
+    "courses": [
+        {
+            "id": 1,
+            "name": "Introduction to React Native",
+            "instructor": "John Doe'",
+            "description": "Learn the basics of React Native development and build your first mobile app.",
+            "enrollmentStatus": "Open",
+            "thumbnail": "your.image.here",
+            "duration": "8 weeks",
+            "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+            "location": "Online",
+            "prerequisites": "['Basic Javascript knowledge', 'Familiarity with React']",
+            "syllabus": [
+                {
+                    "week": 1,  
+                    "topic": "Introduction to React Native",
+                    "content": "Overview of React Native, setting up your development environment."
+                },
+                {
+                    "week": 2,
+                    "topic": "Building Your First App",
+                    "content": "Creating a simple mobile app using React Native"
+                },
+                {
+                    "week": 3,
+                    "topic": "topic 3",
+                    "content": "content 3"
+                },
+                {
+                    "week": 4,
+                    "topic": "topic 4",
+                    "content": " content 4"
+                }
+            ],
+            "students": [
+                {
+                    "id": 101,
+                    "name": "Some name 1",
+                    "email": "somename1@gmail.com"
+                },
+                {
+                    "id": 102,
+                    "name": "Some name 2",
+                    "email": "somename2@gmail.com"
+                },
+                {
+                    "id": 103,
+                    "name": "Some name 3",
+                    "email": "somename3@gmail.com"
+                },
+                {
+                    "id": 104,
+                    "name": "Some name 4",
+                    "email": "somename4@gmail.com"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "course 2",
+            "instructor": "intructor name 2",
+            "description": "Learn the basics of React Native development and build your first mobile app.",
+            "enrollmentStatus": "Open",
+            "thumbnail": "your.image.here",
+            "duration": "8 weeks",
+            "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+            "location": "Online",
+            "prerequisites": "['Basic Javascript knowledge', 'Familiarity with React']",
+            "syllabus": [
+                {
+                    "week": 1,  
+                    "topic": "Introduction to React Native",
+                    "content": "Overview of React Native, setting up your development environment."
+                },
+                {
+                    "week": 2,
+                    "topic": "Building Your First App",
+                    "content": "Creating a simple mobile app using React Native"
+                },
+                {
+                    "week": 3,
+                    "topic": "topic 3",
+                    "content": "content 3"
+                },
+                {
+                    "week": 4,
+                    "topic": "topic 4",
+                    "content": " content 4"
+                }
+            ],
+            "students": [
+                {
+                    "id": 101,
+                    "name": "Some name 1",
+                    "email": "somename1@gmail.com"
+                },
+                {
+                    "id": 102,
+                    "name": "Some name 2",
+                    "email": "somename2@gmail.com"
+                },
+                {
+                    "id": 103,
+                    "name": "Some name 3",
+                    "email": "somename3@gmail.com"
+                },
+                {
+                    "id": 104,
+                    "name": "Some name 4",
+                    "email": "somename4@gmail.com"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "course 3",
+            "instructor": "intructor name 3",
+            "description": "Learn the basics of React Native development and build your first mobile app.",
+            "enrollmentStatus": "Open",
+            "thumbnail": "your.image.here",
+            "duration": "8 weeks",
+            "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+            "location": "Online",
+            "prerequisites": "['Basic Javascript knowledge', 'Familiarity with React']",
+            "syllabus": [
+                {
+                    "week": 1,  
+                    "topic": "Introduction to React Native",
+                    "content": "Overview of React Native, setting up your development environment."
+                },
+                {
+                    "week": 2,
+                    "topic": "Building Your First App",
+                    "content": "Creating a simple mobile app using React Native"
+                },
+                {
+                    "week": 3,
+                    "topic": "topic 3",
+                    "content": "content 3"
+                },
+                {
+                    "week": 4,
+                    "topic": "topic 4",
+                    "content": " content 4"
+                }
+            ],
+            "students": [
+                {
+                    "id": 101,
+                    "name": "Some name 1",
+                    "email": "somename1@gmail.com"
+                },
+                {
+                    "id": 102,
+                    "name": "Some name 2",
+                    "email": "somename2@gmail.com"
+                },
+                {
+                    "id": 103,
+                    "name": "Some name 3",
+                    "email": "somename3@gmail.com"
+                },
+                {
+                    "id": 104,
+                    "name": "Some name 4",
+                    "email": "somename4@gmail.com"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "course 4",
+            "instructor": "intructor name 4",
+            "description": "Learn the basics of React Native development and build your first mobile app.",
+            "enrollmentStatus": "Open",
+            "thumbnail": "your.image.here",
+            "duration": "8 weeks",
+            "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+            "location": "Online",
+            "prerequisites": "['Basic Javascript knowledge', 'Familiarity with React']",
+            "syllabus": [
+                {
+                    "week": 1,  
+                    "topic": "Introduction to React Native",
+                    "content": "Overview of React Native, setting up your development environment."
+                },
+                {
+                    "week": 2,
+                    "topic": "Building Your First App",
+                    "content": "Creating a simple mobile app using React Native"
+                },
+                {
+                    "week": 3,
+                    "topic": "topic 3",
+                    "content": "content 3"
+                },
+                {
+                    "week": 4,
+                    "topic": "topic 4",
+                    "content": " content 4"
+                }
+            ],
+            "students": [
+                {
+                    "id": 101,
+                    "name": "Some name 1",
+                    "email": "somename1@gmail.com"
+                },
+                {
+                    "id": 102,
+                    "name": "Some name 2",
+                    "email": "somename2@gmail.com"
+                },
+                {
+                    "id": 103,
+                    "name": "Some name 3",
+                    "email": "somename3@gmail.com"
+                },
+                {
+                    "id": 104,
+                    "name": "Some name 4",
+                    "email": "somename4@gmail.com"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "course 5",
+            "instructor": "intructor name 5",
+            "description": "Learn the basics of React Native development and build your first mobile app.",
+            "enrollmentStatus": "Open",
+            "thumbnail": "your.image.here",
+            "duration": "8 weeks",
+            "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+            "location": "Online",
+            "prerequisites": "['Basic Javascript knowledge', 'Familiarity with React']",
+            "syllabus": [
+                {
+                    "week": 1,  
+                    "topic": "Introduction to React Native",
+                    "content": "Overview of React Native, setting up your development environment."
+                },
+                {
+                    "week": 2,
+                    "topic": "Building Your First App",
+                    "content": "Creating a simple mobile app using React Native"
+                },
+                {
+                    "week": 3,
+                    "topic": "topic 3",
+                    "content": "content 3"
+                },
+                {
+                    "week": 4,
+                    "topic": "topic 4",
+                    "content": " content 4"
+                }
+            ],
+            "students": [
+                {
+                    "id": 101,
+                    "name": "Some name 1",
+                    "email": "somename1@gmail.com"
+                },
+                {
+                    "id": 102,
+                    "name": "Some name 2",
+                    "email": "somename2@gmail.com"
+                },
+                {
+                    "id": 103,
+                    "name": "Some name 3",
+                    "email": "somename3@gmail.com"
+                },
+                {
+                    "id": 104,
+                    "name": "Some name 4",
+                    "email": "somename4@gmail.com"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "course 6",
+            "instructor": "intructor name 6",
+            "description": "Learn the basics of React Native development and build your first mobile app.",
+            "enrollmentStatus": "Open",
+            "thumbnail": "your.image.here",
+            "duration": "8 weeks",
+            "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+            "location": "Online",
+            "prerequisites": "['Basic Javascript knowledge', 'Familiarity with React']",
+            "syllabus": [
+                {
+                    "week": 1,  
+                    "topic": "Introduction to React Native",
+                    "content": "Overview of React Native, setting up your development environment."
+                },
+                {
+                    "week": 2,
+                    "topic": "Building Your First App",
+                    "content": "Creating a simple mobile app using React Native"
+                },
+                {
+                    "week": 3,
+                    "topic": "topic 3",
+                    "content": "content 3"
+                },
+                {
+                    "week": 4,
+                    "topic": "topic 4",
+                    "content": " content 4"
+                }
+            ],
+            "students": [
+                {
+                    "id": 101,
+                    "name": "Some name 1",
+                    "email": "somename1@gmail.com"
+                },
+                {
+                    "id": 102,
+                    "name": "Some name 2",
+                    "email": "somename2@gmail.com"
+                },
+                {
+                    "id": 103,
+                    "name": "Some name 3",
+                    "email": "somename3@gmail.com"
+                },
+                {
+                    "id": 104,
+                    "name": "Some name 4",
+                    "email": "somename4@gmail.com"
+                }
+            ]
+        }
+    ]
+}
