@@ -1,3 +1,18 @@
+# Running the App
+
+- run 'npx json-server courses.json' in the root directory
+- run 'npm start' in a new terminal in the root directory
+
+
+# Libraries Used
+
+- react-router-dom
+- @reduxjs/toolkit
+- react-redux
+- json-server
+- tailwindcss
+
+
 # REACT COURSE MODEL
 
 - Installed CRA, react-router-dom for navigation, @reduxjs/toolkit for State Management and tailwindcss for the UI
@@ -14,12 +29,3 @@
 - Built CourseListContainer & CourseList component
 - Built Dashboard Page & added Mark complete Feature
 - improved search feature & updated courses.json & made EnrolledCourseCard , CourseList responsive
-
-
-# Libraries Used
-
-- react-router-dom
-- @reduxjs/toolkit
-- react-redux
-- json-server
-- tailwindcss
