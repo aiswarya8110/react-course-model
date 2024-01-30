@@ -25,10 +25,19 @@ const appSlice = createSlice({
         },
         toggleSyllabusSection: (state)=>{
             return {...state, showSyllabusSection: !state.showSyllabusSection}
+        },
+        toggleCourseComplete: (state, action)=>{
+            state.courses.forEach((course)=>{
+                if(course.id === action.payload.id){
+                    course.completed = !course.completed;
+                }
+            })
+
+            return state;
         }
     }
 });
 
-export const { addCourses, updateSearchTerm, updateFilteredCourses, updateCurrentCourse, toggleSyllabusSection } = appSlice.actions;
+export const { addCourses, updateSearchTerm, updateFilteredCourses, updateCurrentCourse, toggleSyllabusSection, toggleCourseComplete } = appSlice.actions;
 
 export default appSlice.reducer;

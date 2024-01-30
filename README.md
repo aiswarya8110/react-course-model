@@ -12,6 +12,7 @@
 - Created Custom Hook useCourses to fetch Data
 - Implemented Search Functionality and rendered list of searched results
 - Built CourseListContainer & CourseList component
+- Built Dashboard Page & added Mark complete Feature
 <!-- REminder why @reduxjs/toolkit instead of redux -->
 
 # Libraries Used

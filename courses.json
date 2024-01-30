@@ -6,10 +6,13 @@
             "instructor": "John Doe'",
             "description": "Learn the basics of React Native development and build your first mobile app.",
             "enrollmentStatus": "Open",
-            "thumbnail": "your.image.here",
+            "thumbnail": "https://img-c.udemycdn.com/course/240x135/1436092_2024_4.jpg",
             "duration": "8 weeks",
             "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
             "location": "Online",
+            "dueDate": "15.02.2024",
+            "progress": 20,
+            "completed": false,
             "prerequisites": ["Basic Javascript knowledge", "Familiarity with React"],
             "syllabus": [
                 {
@@ -58,14 +61,17 @@
         },
         {
             "id": 2,
-            "name": "course 2",
-            "instructor": "intructor name 2",
-            "description": "Learn the basics of React Native development and build your first mobile app.",
+            "name": "The Complete Python Bootcamp From Zero to Hero in Python",
+            "instructor": "Jose Portilla",
+            "description": "Learn <strong>Python</strong> like a Professional  Start from the basics and go all the way to creating your own applications and games",
             "enrollmentStatus": "Open",
-            "thumbnail": "your.image.here",
+            "thumbnail": "https://img-b.udemycdn.com/course/240x135/567828_67d0.jpg",
             "duration": "8 weeks",
             "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
             "location": "Online",
+            "dueDate": "20.02.2024",
+            "progress": 30,
+            "completed": false,
             "prerequisites": ["Basic Javascript knowledge", "Familiarity with React"],
             "syllabus": [
                 {
@@ -114,14 +120,17 @@
         },
         {
             "id": 3,
-            "name": "course 3",
-            "instructor": "intructor name 3",
-            "description": "Learn the basics of React Native development and build your first mobile app.",
+            "name": "Machine Learning A-Z: AI, Python & R + ChatGPT Prize [2024]",
+            "instructor": "Kirill Eremenko, Hadelin de Ponteves, SuperDataScience Team, Ligency Team",
+            "description": "Learn to create Machine Learning Algorithms in Python and R from two Data Science experts.",
             "enrollmentStatus": "Open",
-            "thumbnail": "your.image.here",
+            "thumbnail": "https://img-b.udemycdn.com/course/240x135/950390_270f_3.jpg",
             "duration": "8 weeks",
             "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
             "location": "Online",
+            "dueDate": "28.02.2024",
+            "progress": 50,
+            "completed": false,
             "prerequisites": ["Basic Javascript knowledge", "Familiarity with React"],
             "syllabus": [
                 {
@@ -170,14 +179,17 @@
         },
         {
             "id": 4,
-            "name": "course 4",
-            "instructor": "intructor name 4",
-            "description": "Learn the basics of React Native development and build your first mobile app.",
+            "name": "NodeJS Tutorial and Projects Course",
+            "instructor": "John Smilga",
+            "description": "Learn Node.js by building real-world applications with Node Js , Express, MongoDB.",
             "enrollmentStatus": "Open",
-            "thumbnail": "your.image.here",
+            "thumbnail": "https://img-c.udemycdn.com/course/240x135/3830262_2c3b_3.jpg",
             "duration": "8 weeks",
             "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
             "location": "Online",
+            "dueDate": "12.02.2024",
+            "progress": 75,
+            "completed": false,
             "prerequisites": ["Basic Javascript knowledge", "Familiarity with React"],
             "syllabus": [
                 {
@@ -226,15 +238,20 @@
         },
         {
             "id": 5,
-            "name": "course 5",
-            "instructor": "intructor name 5",
-            "description": "Learn the basics of React Native development and build your first mobile app.",
+            "name": "React, NodeJS, Express & MongoDB - The MERN Fullstack Guide",
+            "instructor": "Academind by Maximilian Schwarzmüller, Manuel Lorenz",
+            "description": "Build fullstack React.js applications with Node.js, Express.js & MongoDB with this project-focused course",
             "enrollmentStatus": "Open",
-            "thumbnail": "your.image.here",
+            "thumbnail": "https://img-c.udemycdn.com/course/240x135/2640372_5b44_5.jpg",
             "duration": "8 weeks",
             "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
             "location": "Online",
-            "prerequisites": ["Basic Javascript knowledge", "Familiarity with React"],
+            "dueDate": "25.02.2024",
+            "progress": 60,
+            "completed": false,
+            "prerequisites": ["Basic knowledge about ReactJS is required",
+            "ReactJS Hooks knowledge is recommended",
+            "Basic knowledge about Node, Express and MongoDB is recommended but not a must-have"],
             "syllabus": [
                 {
                     "week": 1,  
@@ -282,15 +299,138 @@
         },
         {
             "id": 6,
-            "name": "course 6",
-            "instructor": "intructor name 6",
-            "description": "Learn the basics of React Native development and build your first mobile app.",
+            "name": "The Complete 2024 Web Development Bootcamp",
+            "instructor": "Dr. Angela Yu",
+            "description": "Become a Full Stack Web Developer with just ONE course. HTML, CSS, Javascript, Node, React, PostgreSQL, Web3 and DApps",
             "enrollmentStatus": "Open",
-            "thumbnail": "your.image.here",
+            "thumbnail": "https://img-c.udemycdn.com/course/240x135/1565838_e54e_18.jpg",
             "duration": "8 weeks",
             "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
             "location": "Online",
-            "prerequisites": ["Basic Javascript knowledge", "Familiarity with React"],
+            "dueDate": "28.02.2024",
+            "progress": 40,
+            "completed": false,
+            "prerequisites": ["No programming experience needed - I'll teach you everything you need to know","A computer with access to the internet","No paid software required"],
+            "syllabus": [
+                {
+                    "week": 1,  
+                    "topic": "Introduction to React Native",
+                    "content": "Overview of React Native, setting up your development environment."
+                },
+                {
+                    "week": 2,
+                    "topic": "Building Your First App",
+                    "content": "Creating a simple mobile app using React Native"
+                },
+                {
+                    "week": 3,
+                    "topic": "topic 3",
+                    "content": "content 3"
+                },
+                {
+                    "week": 4,
+                    "topic": "topic 4",
+                    "content": " content 4"
+                }
+            ],
+            "students": [
+                {
+                    "id": 101,
+                    "name": "Some name 1",
+                    "email": "somename1@gmail.com"
+                },
+                {
+                    "id": 102,
+                    "name": "Some name 2",
+                    "email": "somename2@gmail.com"
+                },
+                {
+                    "id": 103,
+                    "name": "Some name 3",
+                    "email": "somename3@gmail.com"
+                },
+                {
+                    "id": 104,
+                    "name": "Some name 4",
+                    "email": "somename4@gmail.com"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Understanding TypeScript",
+            "instructor": "Maximilian Schwarzmüller",
+            "description": "Boost your JavaScript projects with Typescript",
+            "enrollmentStatus": "Open",
+            "thumbnail": "https://img-c.udemycdn.com/course/240x135/947098_02ec_2.jpg",
+            "duration": "8 weeks",
+            "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+            "location": "Online",
+            "dueDate": "28.02.2024",
+            "progress": 50,
+            "completed": false,
+            "prerequisites": ["JavaScript knowledge is required, though you don't need to be an Expert",
+            "NO prior TypeScript experience is required"],
+            "syllabus": [
+                {
+                    "week": 1,  
+                    "topic": "Introduction to React Native",
+                    "content": "Overview of React Native, setting up your development environment."
+                },
+                {
+                    "week": 2,
+                    "topic": "Building Your First App",
+                    "content": "Creating a simple mobile app using React Native"
+                },
+                {
+                    "week": 3,
+                    "topic": "topic 3",
+                    "content": "content 3"
+                },
+                {
+                    "week": 4,
+                    "topic": "topic 4",
+                    "content": " content 4"
+                }
+            ],
+            "students": [
+                {
+                    "id": 101,
+                    "name": "Some name 1",
+                    "email": "somename1@gmail.com"
+                },
+                {
+                    "id": 102,
+                    "name": "Some name 2",
+                    "email": "somename2@gmail.com"
+                },
+                {
+                    "id": 103,
+                    "name": "Some name 3",
+                    "email": "somename3@gmail.com"
+                },
+                {
+                    "id": 104,
+                    "name": "Some name 4",
+                    "email": "somename4@gmail.com"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "MongoDB - The Complete Developer's Guide 2024",
+            "instructor": "Academind by Maximilian Schwarzmüller, Maximilian Schwarzmüller",
+            "description": "Master MongoDB Development for Web & Mobile Apps. CRUD Operations, Indexes, Aggregation Framework - All about",
+            "enrollmentStatus": "Open",
+            "thumbnail": "https://img-c.udemycdn.com/course/240x135/1906852_93c6_2.jpg",
+            "duration": "8 weeks",
+            "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+            "location": "Online",
+            "dueDate": "28.02.2024",
+            "progress": 50,
+            "completed": false,
+            "prerequisites": ["NO prior knowledge on databases (of any kind) is required",
+            "General web development or mobile development knowledge will help you but is not a must-have"],
             "syllabus": [
                 {
                     "week": 1,  
