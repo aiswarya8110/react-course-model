@@ -1,4 +1,4 @@
-# REACT COURSE MODEL (STEP-BY-STEP)
+# REACT COURSE MODEL
 
 - Installed CRA, react-router-dom for navigation, @reduxjs/toolkit for State Management and tailwindcss for the UI
 - Configured tailwindcss
