@@ -13,7 +13,7 @@ const EnrolledCourseCard = ({ course })=>{
     }
 
     return (
-        <div className="w-full md:w-80 lg:w-96 capitalize shadow-lg rounded-lg text-slate-900">
+        <div className="w-full md:w-72 lg:w-80 capitalize shadow-lg rounded-lg text-slate-900">
             <img src={thumbnail} alt="course" className="w-full object-cover rounded-lg"/>
             <div className="p-3 pb-5 font-semibold">
                 <h3 className="text-lg font-bold mb-1">{trimTitle(name)}</h3>
