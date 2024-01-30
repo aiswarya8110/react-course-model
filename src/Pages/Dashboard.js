@@ -4,7 +4,7 @@ import EnrolledCourseCard from '../components/EnrolledCourseCard';
 const Dashboard = ()=>{
     const courses = useSelector((store)=> store.app.courses);
 
-    if(!courses) return <h2>No Enrolled Courses</h2>
+    if(!courses) return <h2 className='text-center'>No Enrolled Courses</h2>
 
     return (
         <>

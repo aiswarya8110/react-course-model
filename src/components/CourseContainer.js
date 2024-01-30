@@ -16,7 +16,7 @@ const CourseContainer = ()=>{
         }
     },[searchTerm])
 
-    if(!courses) return <h3>Loading Courses..</h3>
+    if(!courses) return <h3 className='text-center'>Loading Courses..</h3>
 
     if(filteredCourses){
         return (

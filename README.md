@@ -1,10 +1,10 @@
 # Running the App
 
-- run 'npx json-server courses.json' in the root directory
-- run 'npm start' in a new terminal in the root directory
+- run 'npx json-server courses.json' in the root directory, the server will run in port 3000
+- run 'npm start' in a new terminal in the root directory,  the server will run in port 3001
 
 
-# Libraries Used
+# Packages Used
 
 - react-router-dom
 - @reduxjs/toolkit

@@ -9,8 +9,8 @@ const CourseDetailsPage = ()=>{
         dispatch(toggleSyllabusSection());
     }
 
-    if(!currentCourse) return <h2>No course details found</h2>
-    console.log(currentCourse);
+    if(!currentCourse) return <h2 className='text-center'>No course details found</h2>
+
     const { name, instructor, duration, description, enrollmentStatus, schedule, location, prerequisites, syllabus } = currentCourse;
     return (
         <div className='m-5 flex flex-col justify-start items-center text-slate-800 capitalize'>
@@ -23,7 +23,7 @@ const CourseDetailsPage = ()=>{
                 <p className='px-4 py-2'><span className='text-lg font-bold mr-2'>Schedule </span>{schedule}</p>
                 <p className='px-4 py-2'><span className='text-lg font-bold mr-2'>Location </span>{location}</p>
                 <p className='px-4 py-2'><span className='text-lg font-bold mr-2'>Pre-requisites </span>{prerequisites.join(", ")}</p>
-                <div className='px-4 py-2 border border-slate-900 cursor-pointer rounded-lg' onClick={handleClick}><span className='text-lg font-bold mr-2'>Syllabus <small>(click to expand)</small> </span>
+                <div className='px-4 py-2 border border-slate-400 cursor-pointer rounded-lg' onClick={handleClick}><span className='text-lg font-bold mr-2'>Syllabus <small>(click to expand)</small> </span>
                 {showSyllabusSection && (
                     <div className='px-4 py-2'>
                         <ul>

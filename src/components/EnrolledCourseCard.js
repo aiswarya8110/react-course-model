@@ -6,15 +6,15 @@ import checkImg from '../assets/check.png';
 const EnrolledCourseCard = ({ course })=>{
     const dispatch = useDispatch();
     const {name, instructor, progress, thumbnail, dueDate, completed } = course;
-    console.log(progress);
+    
     const handleClick = (course)=>{
        dispatch(toggleCourseComplete(course));
     }
 
     return (
-        <div className="w-full md:w-80 lg:w-96 capitalize shadow-lg rounded-lg text-slate-900">
+        <div className="w-full self-stretch md:w-80 lg:w-96 capitalize shadow-lg rounded-lg text-slate-900">
             <img src={thumbnail} alt="course" className="w-full object-cover rounded-lg"/>
-            <div className="p-3 pb-5">
+            <div className="p-3 pb-5 font-semibold">
                 <h3 className="text-lg font-bold mb-1">{name}</h3>
                 <h4 className="mb-2">{instructor}</h4>
                 <div className="h-1 rounded-lg bg-slate-200 mb-2">

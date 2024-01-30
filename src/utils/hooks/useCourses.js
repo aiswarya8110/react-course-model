@@ -6,7 +6,6 @@ const useCourses = ()=>{
     const getCourses = async()=>{
         const response = await fetch('http://localhost:3000/courses');
         const courses = await response.json();
-        console.log(courses);
         dispatch(addCourses(courses));
     }
     useEffect(()=>{
