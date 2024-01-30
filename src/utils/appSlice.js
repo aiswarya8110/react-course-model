@@ -7,6 +7,7 @@ const appSlice = createSlice({
         filteredCourses: null,
         searchTerm: '',
         showSyllabusSection: false,
+        currentCourse: null
     },
 
     reducers: {
@@ -18,10 +19,16 @@ const appSlice = createSlice({
         },
         updateFilteredCourses: (state, action)=>{
             return {...state, filteredCourses: action.payload}
-        } 
+        },
+        updateCurrentCourse: (state, action)=>{
+            return {...state, currentCourse: action.payload}
+        },
+        toggleSyllabusSection: (state)=>{
+            return {...state, showSyllabusSection: !state.showSyllabusSection}
+        }
     }
 });
 
-export const { addCourses, updateSearchTerm, updateFilteredCourses } = appSlice.actions;
+export const { addCourses, updateSearchTerm, updateFilteredCourses, updateCurrentCourse, toggleSyllabusSection } = appSlice.actions;
 
 export default appSlice.reducer;

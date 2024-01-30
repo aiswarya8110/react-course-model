@@ -1,43 +1,29 @@
-import React, { useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import { updateFilteredCourses } from '../utils/appSlice';
-const CourseList = ()=>{
+import React from "react";
+import { useDispatch } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
+import { updateCurrentCourse } from "../utils/appSlice";
+const CourseList = ({ courses })=>{
     const dispatch = useDispatch();
-    const { courses, searchTerm, filteredCourses } = useSelector((store)=> store.app);
+    const navigate = useNavigate();
 
-    useEffect(()=>{
-        if(searchTerm){
-            const filteredCourses = courses.filter((course)=> course.instructor === searchTerm || course.name === searchTerm);
-            dispatch(updateFilteredCourses(filteredCourses));
-        }
-        else{
-            dispatch(updateFilteredCourses(courses))
-        }
-    },[searchTerm])
-
-    if(!courses) return <h3>Loading Courses..</h3>
-
-    if(filteredCourses){
-        return (
-            <div>
-                <ul>
-                    {filteredCourses.map((course)=>{
-                        const {id, name } = course;
-
-                        return <li key={id}>{name}</li>
-                    })}
-                </ul>
-            </div>
-        )
+    const handleClick = (course)=>{
+        dispatch(updateCurrentCourse(course));
+        navigate("/course-details");
     }
 
     return (
         <div>
             <ul>
-                {courses.map((course)=>{
-                    const {id, name } = course;
+                {courses.map((course)=> {
+                    const {name, id } = course;
 
-                    return <li key={id}>{name}</li>
+                    return (
+                    <li 
+                    key={id} 
+                    className="cursor-pointer" 
+                    onClick={()=>handleClick(course)}>
+                        {name}
+                    </li>)
                 })}
             </ul>
         </div>

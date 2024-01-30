@@ -9,6 +9,9 @@
 - Setup store and created appSlice
 - Installed react-redux for connecting our react app to store
 - Provided store to our app
+- Created Custom Hook useCourses to fetch Data
+- Implemented Search Functionality and rendered list of searched results
+- Built CourseListContainer & CourseList component
 <!-- REminder why @reduxjs/toolkit instead of redux -->
 
 # Libraries Used
