@@ -12,15 +12,15 @@ const CourseList = ({ courses })=>{
     }
 
     return (
-        <div>
-            <ul>
+        <div className="flex justify-center">
+            <ul className="w-full md:w-2/4 text-center">
                 {courses.map((course)=> {
                     const {name, id } = course;
 
                     return (
                     <li 
                     key={id} 
-                    className="cursor-pointer" 
+                    className="capitalize cursor-pointer p-2 mb-4 text-lg font-semibold rounded-lg w-full" 
                     onClick={()=>handleClick(course)}>
                         {name}
                     </li>)

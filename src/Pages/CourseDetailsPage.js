@@ -13,32 +13,35 @@ const CourseDetailsPage = ()=>{
     console.log(currentCourse);
     const { name, instructor, duration, description, enrollmentStatus, schedule, location, prerequisites, syllabus } = currentCourse;
     return (
-        <div className='m-5'>
-            <p className='px-4 py-2'><span className='text-lg font-bold mr-2'>Course Name </span>{name}</p>
-            <p className='px-4 py-2'><span className='text-lg font-bold mr-2'>Instructor's Name </span>{instructor}</p>
-            <p className='px-4 py-2'><span className='text-lg font-bold mr-2'>Description </span>{description}</p>
-            <p className='px-4 py-2'><span className='text-lg font-bold mr-2'>Enrollment status </span>{enrollmentStatus}</p>
-            <p className='px-4 py-2'><span className='text-lg font-bold mr-2'>Course duration </span>{duration}</p>
-            <p className='px-4 py-2'><span className='text-lg font-bold mr-2'>Schedule </span>{schedule}</p>
-            <p className='px-4 py-2'><span className='text-lg font-bold mr-2'>Location </span>{location}</p>
-            <p className='px-4 py-2'><span className='text-lg font-bold mr-2'>Pre-requisites </span>{prerequisites.join(", ")}</p>
-            <p className='px-4 py-2'><span className='text-lg font-bold mr-2 cursor-pointer' onClick={handleClick}>Syllabus </span></p>
-            {showSyllabusSection && (
-                <div className='px-4 py-2'>
-                    <ul>
-                        {syllabus.map((item)=>{
-                            const { week, topic, content } = item;
-                            return (
-                                <li className='mb-4' key={week} >
-                                    <p><span className='text-lg font-semibold mr-2'>Week</span>{week}</p>
-                                    <p><span className='text-lg font-semibold mr-2'>Topic</span>{topic}</p>
-                                    <p><span className='text-lg font-semibold mr-2'>Content</span>{content}</p>
-                                </li>
-                            )
-                        })}
-                    </ul>  
+        <div className='m-5 flex flex-col justify-start items-center text-slate-800 capitalize'>
+            <div>
+                <p className='px-4 py-2'><span className='text-lg font-bold mr-2'>Course Name </span>{name}</p>
+                <p className='px-4 py-2'><span className='text-lg font-bold mr-2'>Instructor's Name </span>{instructor}</p>
+                <p className='px-4 py-2'><span className='text-lg font-bold mr-2'>Description </span>{description}</p>
+                <p className='px-4 py-2'><span className='text-lg font-bold mr-2'>Enrollment status </span>{enrollmentStatus}</p>
+                <p className='px-4 py-2'><span className='text-lg font-bold mr-2'>Course duration </span>{duration}</p>
+                <p className='px-4 py-2'><span className='text-lg font-bold mr-2'>Schedule </span>{schedule}</p>
+                <p className='px-4 py-2'><span className='text-lg font-bold mr-2'>Location </span>{location}</p>
+                <p className='px-4 py-2'><span className='text-lg font-bold mr-2'>Pre-requisites </span>{prerequisites.join(", ")}</p>
+                <div className='px-4 py-2 border border-slate-900 cursor-pointer rounded-lg' onClick={handleClick}><span className='text-lg font-bold mr-2'>Syllabus <small>(click to expand)</small> </span>
+                {showSyllabusSection && (
+                    <div className='px-4 py-2'>
+                        <ul>
+                            {syllabus.map((item)=>{
+                                const { week, topic, content } = item;
+                                return (
+                                    <li className='mb-4' key={week} >
+                                        <p><span className='text-lg font-semibold mr-2'>Week</span>{week}</p>
+                                        <p><span className='text-lg font-semibold mr-2'>Topic</span>{topic}</p>
+                                        <p><span className='text-lg font-semibold mr-2'>Content</span>{content}</p>
+                                    </li>
+                                )
+                            })}
+                        </ul>  
+                    </div>
+                )}
                 </div>
-            )}
+            </div>
         </div>
     )
 }

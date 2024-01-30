@@ -8,7 +8,7 @@ const CourseContainer = ()=>{
 
     useEffect(()=>{
         if(searchTerm){
-            const filteredCourses = courses.filter((course)=> course.instructor === searchTerm || course.name === searchTerm);
+            const filteredCourses = courses.filter((course)=> course.instructor.includes(searchTerm) || course.name.includes(searchTerm) );
             dispatch(updateFilteredCourses(filteredCourses));
         }
         else{
@@ -20,12 +20,18 @@ const CourseContainer = ()=>{
 
     if(filteredCourses){
         return (
-            <CourseList courses={filteredCourses} />
+            <>
+                <h2 className='text-slate-800 text-center font-bold text-3xl my-3 md:text-4xl lg:text-6xl lg:my-5'>Courses</h2>
+                <CourseList courses={filteredCourses} />
+            </>
         )
     }
 
     return (
-        <CourseList courses={courses} />
+        <>
+            <h2 className='text-slate-800 text-center font-bold text-3xl my-3 md:text-4xl lg:text-6xl lg:my-5'>Courses</h2>
+            <CourseList courses={courses} />
+        </>
     )
 }
 

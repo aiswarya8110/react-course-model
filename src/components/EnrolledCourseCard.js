@@ -12,7 +12,7 @@ const EnrolledCourseCard = ({ course })=>{
     }
 
     return (
-        <div className="w-80 shadow-lg rounded-lg text-slate-900">
+        <div className="w-full md:w-80 lg:w-96 capitalize shadow-lg rounded-lg text-slate-900">
             <img src={thumbnail} alt="course" className="w-full object-cover rounded-lg"/>
             <div className="p-3 pb-5">
                 <h3 className="text-lg font-bold mb-1">{name}</h3>
