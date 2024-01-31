@@ -1,7 +1,7 @@
 # Running the App
 
 - run 'npx json-server courses.json' in the root, the server will run in  localhost:3000/courses
-- run 'npm start' in a new terminal in the root,  the server will run in port localhost:3001
+- run 'npm start' in a new terminal in the root,  the server will run in localhost:3001
 
 
 # Packages Used
