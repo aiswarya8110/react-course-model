@@ -76,13 +76,13 @@
             "syllabus": [
                 {
                     "week": 1,  
-                    "topic": "Introduction to React Native",
-                    "content": "Overview of React Native, setting up your development environment."
+                    "topic": "the complete python bootcamp from zero to hero in python",
+                    "content": "learning python"
                 },
                 {
                     "week": 2,
                     "topic": "Building Your First App",
-                    "content": "Creating a simple mobile app using React Native"
+                    "content": "learning python"
                 },
                 {
                     "week": 3,
@@ -92,7 +92,7 @@
                 {
                     "week": 4,
                     "topic": "topic 4",
-                    "content": " content 4"
+                    "content": "content 4"
                 }
             ],
             "students": [
@@ -135,13 +135,13 @@
             "syllabus": [
                 {
                     "week": 1,  
-                    "topic": "Introduction to React Native",
-                    "content": "Overview of React Native, setting up your development environment."
+                    "topic": "machine learning a-z: ai, python & r + chatgpt prize [2024]",
+                    "content": "machine learning"
                 },
                 {
                     "week": 2,
                     "topic": "Building Your First App",
-                    "content": "Creating a simple mobile app using React Native"
+                    "content": "machine learning"
                 },
                 {
                     "week": 3,
@@ -194,13 +194,13 @@
             "syllabus": [
                 {
                     "week": 1,  
-                    "topic": "Introduction to React Native",
-                    "content": "Overview of React Native, setting up your development environment."
+                    "topic": "nodejs tutorial and projects course",
+                    "content": "learning node js"
                 },
                 {
                     "week": 2,
                     "topic": "Building Your First App",
-                    "content": "Creating a simple mobile app using React Native"
+                    "content": "learning node js"
                 },
                 {
                     "week": 3,
@@ -314,13 +314,13 @@
             "syllabus": [
                 {
                     "week": 1,  
-                    "topic": "Introduction to React Native",
-                    "content": "Overview of React Native, setting up your development environment."
+                    "topic": "the complete 2024 web development bootcamp",
+                    "content": "learning web development"
                 },
                 {
                     "week": 2,
                     "topic": "Building Your First App",
-                    "content": "Creating a simple mobile app using React Native"
+                    "content": "learning web development"
                 },
                 {
                     "week": 3,
@@ -374,13 +374,13 @@
             "syllabus": [
                 {
                     "week": 1,  
-                    "topic": "Introduction to React Native",
-                    "content": "Overview of React Native, setting up your development environment."
+                    "topic": "understanding typeScript",
+                    "content": "learning typescript"
                 },
                 {
                     "week": 2,
                     "topic": "Building Your First App",
-                    "content": "Creating a simple mobile app using React Native"
+                    "content": "learning typescript"
                 },
                 {
                     "week": 3,
@@ -434,13 +434,13 @@
             "syllabus": [
                 {
                     "week": 1,  
-                    "topic": "Introduction to React Native",
-                    "content": "Overview of React Native, setting up your development environment."
+                    "topic": "mongodb - the complete developer's guide 2024",
+                    "content": "learning mongoDB"
                 },
                 {
                     "week": 2,
                     "topic": "Building Your First App",
-                    "content": "Creating a simple mobile app using React Native"
+                    "content": "learning mongoDB"
                 },
                 {
                     "week": 3,

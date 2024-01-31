@@ -1,5 +1,5 @@
 const trimTitle = (str)=>{
-   return str.length > 40 ? `${str.slice(0,33)}...` : str
+   return str.length > 30 ? `${str.slice(0,28)}...` : str
 }
 
 export default trimTitle;
